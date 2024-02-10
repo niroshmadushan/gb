@@ -5,24 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test PHP File</title>
 </head>
-<body>
+<body onload="loadTestPhp()">
 
-<h1>Calling test.php</h1>
 
-<button onload="loadTestPhp()">Load test.php</button>
+
 
 <div id="phpResponse"></div>
 
 <script>
 function loadTestPhp() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("phpResponse").innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", "index.php", true);
-    xhttp.send();
+    window.location.href = "index.php"; 
 }
 </script>
 
