@@ -1,0 +1,1093 @@
+*{
+    border: none;
+}
+
+body{background-color: rgb(110, 109, 109);}
+
+
+
+
+
+
+
+.analys{display: none;}
+
+   
+.sel{
+    width: 350px;
+    height: 25px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+input{padding-left: 15px;}
+.msg{
+    
+    background-color: rgba(24, 23, 23, 0.685);
+    width:100%;
+    position: absolute;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -610px;
+    margin-left: -10px;
+
+    
+   
+
+}
+.msg .msgbox2 table{
+    margin: auto;
+
+}
+.msg .msgbox2 .ok{
+    width: 100px;
+    margin-left: 200px;
+}
+.msg .msgbox2 th{
+    text-align: right;
+    color: white;
+}
+.msg .msgbox2 label{
+    font-size: 13px;
+    margin-top: -5px;
+}
+.msg .msgbox2 input{
+    width: 170px;
+    height: 25px;
+    margin-bottom: 1px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+
+.msg .msgbox button{
+    width: 70px;
+    margin-left: 270px;
+}
+.msg .msgbox3 button{
+    width: 70px;
+    margin-left: 270px;
+}
+.msg .msgbox2 button{
+    width: 70px;
+    margin-left: 230px;
+}
+.msg .msgbox{
+    background-color: rgb(85, 83, 83);
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: sans-serif;
+    padding-top: 1px;
+    
+    
+} 
+.msg .msgbox3{
+    background-color: rgb(85, 83, 83);
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: sans-serif;
+    padding-top: 1px;
+    
+    
+}
+.msg .msgbox2{
+    background-color: rgba(85, 83, 83, 0.849);
+    height: 175px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: sans-serif;
+    padding-top: 1px;
+    
+    
+} 
+.msg .msgbox p{
+    margin-left: 10px;
+    background-color: rgba(132, 197, 151, 0.432);
+    width: 310px;
+    border-radius: 8px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(4, 43, 12);
+}
+.msg .msgbox3 p{
+    margin-left: 10px;
+    background-color: rgba(132, 197, 151, 0.432);
+    width: 310px;
+    border-radius: 8px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(4, 43, 12);
+}
+.msg .msgbox2 p{
+    margin-left: 10px;
+    background-color: rgba(132, 197, 151, 0.432);
+    width: 310px;
+    border-radius: 8px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(4, 43, 12);
+}
+.msg .msgbox h3{
+    margin-left: 10px;
+    background-color: rgb(95, 92, 92);
+    width: 320px;
+    border-radius: 8px;
+    height: 10px;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.msg .msgbox3 h3{
+    margin-left: 10px;
+    background-color: rgb(95, 92, 92);
+    width: 320px;
+    border-radius: 8px;
+    height: 10px;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.msg .msgbox2 h3{
+    margin-left: 10px;
+    background-color: rgb(95, 92, 92);
+    width: 320px;
+    border-radius: 8px;
+    height: 10px;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.main{
+    background-color: rgb(78, 78, 78);
+    width:1275px;
+    margin: auto;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 1px;
+   
+
+    
+}
+.whiop{
+    height: 375px;
+    width: 185px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 1px;
+    
+    
+} 
+.navbar{
+    height: 580px;
+    width: 220px;
+    background-color: rgb(65, 63, 63);
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 1px;
+    float: left;
+
+}
+.sbtn{
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: rgba(61, 61, 204, 0.801);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 6px;
+  
+
+}
+.sbtn:hover{
+    background-color: rgb(49, 128, 180);
+    color: rgb(36, 2, 90);
+    cursor: pointer;
+}
+
+.sbtn:active{
+    transform: scale(0.90);
+}
+
+.navbar .whiop h3{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.infobar .wiop h3{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.infobar .wiop2 h3{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footbar{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 175px;
+    height: 160px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.651);
+}
+.update .white{
+    color: white;
+}
+.footbar h4{
+    font-size: 13px;
+    margin: 6px; 
+}
+.footbar h5{
+    font-size: 10px;
+    margin:5px;
+    color: azure;
+}
+.footbar p{
+    margin: 1px;
+}
+.footbar h6{
+    margin: 10px;
+    color: azure;
+}
+.footbar .eml{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.containeer{
+    background-color: rgb(14, 13, 13);
+    width:800px;
+    margin-top: 10px;
+    height: 580px;
+    border-radius: 12px;
+    background-color: rgb(65, 63, 63);
+    padding-top: 1px;
+    float: left;
+    margin-left: 10px;
+}
+.titlebar .tit{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 530px;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 15px;
+    float: left;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.651);
+}
+.titlebar .tit img{
+float: left;
+margin-left: 20px;
+margin-top: 5px;
+}
+.titlebar .tit h2{
+    float: left;
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    }
+.titlebar2 .tit{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 15px;
+    
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.651);
+    float: left;
+
+} 
+
+.titlebar2 .tit img{
+float: left;
+margin-left: 20px;
+margin-top: 5px;
+}
+.titlebar2 .tit h2{
+    float: left;
+    margin: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}   
+.infobar{
+    height: 580px;
+    width: 215px;
+    background-color: rgb(65, 63, 63);
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 1px;
+    float: left;
+}    
+
+.infobar .wiop{
+    height: 300px;
+    width: 185px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 1px;
+}
+
+.infobar .wiop2{
+    height: 180px;
+    width: 185px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 1px;
+}
+.wiop2 p{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(125, 128, 128);
+    height: 25px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.rate{
+    color: rgb(71, 1, 1);
+    font-weight: bold;
+}
+
+.infobar .wiop3{
+    height: 50px;
+    width: 185px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 1px;
+}
+.infobar .wiop3 button{
+    margin-top: 10px;
+    background-color: brown;
+}
+.infobar .wiop3 button:hover{
+    margin-top: 20px;
+    background-color: rgb(218, 121, 121);
+}
+.view{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 760px;
+    height: 490px;
+    border-radius: 12px;
+    margin-left: 15px;
+    
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.651);
+    float: left;
+
+}
+.tbl{
+   
+    width: 753px;
+    background-color: rgb(139, 139, 138);
+    margin-top: 0px;
+    border-radius: 5px;
+    max-height: 363px; /* Adjust the height as needed */
+    overflow-y: auto;
+    border-radius: 10px;
+    
+    
+   
+ 
+   
+   
+}
+.tbl th{
+    background-color: rgb(43,37,137);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.tbl td{
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(142, 150, 161);
+}
+
+.tbl tr:hover >td{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+   
+
+}
+.tbl td:hover>tr{
+    background-color: brown;
+}
+
+.tbl .row:hover{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl tr{
+    border: 1px solid;
+    
+}
+.datatable .tblname{
+    width: 250px;
+    text-align: center;
+    
+}
+.sc{
+    width: 100px;
+    background-color: rgb(26, 77, 7);
+}
+.sc:hover{
+    background-color: rgb(59, 150, 25);
+    color: black;
+}
+
+.view .datatable .src label{
+    color: white;
+    margin-left: 120px;
+}
+.view .sbln .src label{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.view .nbln .src label{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.view .sbln .src button{
+    width: 70px;
+
+}
+.view .nbln .src button{
+    width: 70px;
+
+}
+.view .datatable .src input{
+  
+    width: 250px;
+    height: 25px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.view .sbln .src input{
+  
+    width: 150px;
+    height: 25px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.view .nbln .src input{
+  
+    width: 150px;
+    height: 25px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.src{
+    background-color: rgb(59, 59, 59);
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.sb{
+    width: 130px;
+    background-color: rgb(26, 77, 7);
+    margin-top: 20px;
+    margin-left: 330px;
+}
+.sb:hover{
+    background-color: rgb(59, 150, 25);
+    color: black;
+}
+
+.reg{
+    margin: auto;
+}
+.reg .center{
+    margin: auto;
+    width: 500px;
+}
+.reg p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.reg td{
+    text-align: right;
+   height: 30px;
+}
+.reg label{
+    color: white;
+    font-family: sans-serif;
+}
+.reg input{
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.reg tr:hover{
+    background-color: rgb(73, 72, 72);
+   
+}
+.update{
+    margin: auto;
+}
+.update .center{
+    margin: auto;
+    width: 500px;
+}
+.update p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.update td{
+    text-align: right;
+   height: 30px;
+}
+.update label{
+    color: white;
+    font-family: sans-serif;
+}
+.update input{
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.update tr:hover{
+    background-color: rgb(73, 72, 72);
+   
+}
+.srcbox .srch{
+    width: 150px;
+    background-color: rgb(136, 134, 134);
+    height: 30px;
+    color: rgb(128, 6, 6);
+    text-align: center;
+    
+}
+
+.srcbox button{
+    width: 30px;
+    background-color: rgb(109, 106, 106);
+    margin-top: -30px;
+    margin-left: 10px;
+    
+}
+.srcbox{
+    width: 350px;
+    margin: auto;
+}
+
+
+.withdrawal{
+    margin: auto;
+}
+.withdrawal .center{
+    margin: auto;
+    width: 500px;
+}
+.withdrawal p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+.withdrawal td{
+    text-align: right;
+   height: 30px;
+}
+.withdrawal label{
+    color: white;
+    font-family: sans-serif;
+}
+.withdrawal input{
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.withdrawal tr:hover{
+    background-color: rgb(73, 72, 72);
+   
+}
+.withdrawal .srcbox .srch{
+    width: 150px;
+    background-color: rgb(136, 134, 134);
+    height: 30px;
+    color: rgb(128, 6, 6);
+    text-align: center;
+    
+}
+
+.withdrawal .srcbox button{
+    width: 30px;
+    background-color: rgb(109, 106, 106);
+    margin-top: -30px;
+    margin-left: 10px;
+    
+}
+.withdrawal .srcbox{
+    width: 350px;
+    margin: auto;
+}
+
+.deposite{
+    margin: auto;
+}
+.deposite .center{
+    margin: auto;
+    width: 500px;
+}
+.deposite p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+.deposite td{
+    text-align: right;
+   height: 30px;
+}
+.deposite label{
+    color: white;
+    font-family: sans-serif;
+}
+.deposite input{
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.deposite tr:hover{
+    background-color: rgb(73, 72, 72);
+   
+}
+.deposite .srcbox .srch{
+    width: 150px;
+    background-color: rgb(136, 134, 134);
+    height: 30px;
+    color: rgb(128, 6, 6);
+    text-align: center;
+    
+}
+
+.deposite .srcbox button{
+    width: 30px;
+    background-color: rgb(109, 106, 106);
+    margin-top: -30px;
+    margin-left: 10px;
+    
+}
+.deposite .srcbox{
+    width: 350px;
+    margin: auto;
+}
+
+.sbln .tbl{
+   
+    width: 410px;
+    background-color: rgb(139, 139, 138);
+    margin-top: -65px;
+    border-radius: 5px;
+    max-height: 390px; /* Adjust the height as needed */
+    overflow-y: auto;
+    border-radius: 10px;
+    margin-left: 345px;  
+}
+.nbln .tbl{
+   
+    width: 410px;
+    background-color: rgb(139, 139, 138);
+    margin-top: -65px;
+    border-radius: 5px;
+    max-height: 390px; /* Adjust the height as needed */
+    overflow-y: auto;
+    border-radius: 10px;
+    margin-left: 345px;  
+}
+.sbln .tbl th{
+    background-color: rgb(43,37,137);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nbln .tbl th{
+    background-color: rgb(43,37,137);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.sbln .tbl td{
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(142, 150, 161);
+}
+.nbln .tbl td{
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(142, 150, 161);
+}
+
+.sbln .tbl tr:hover >td{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+   
+
+}
+.nbln .tbl tr:hover >td{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+   
+
+}
+.sbln .tbl td:hover>tr{
+    background-color: brown;
+}
+.nbln .tbl td:hover>tr{
+    background-color: brown;
+}
+
+.sbln .tbl .row:hover{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+}
+.nbln .tbl .row:hover{
+    background-color: rgb(170, 198, 250);
+    cursor: pointer;
+    font-weight: bold;
+}
+.sbln .tbl tr{
+    border: 1px solid;
+    
+}
+.nbln .tbl tr{
+    border: 1px solid;
+    
+}
+.view .sbln .src{
+    width: 340px;
+}
+.view .nbln .src{
+    width: 340px;
+}
+.sbln .info{
+    background-color: rgb(105, 105, 105);
+    width: 340px;
+    height: 330px;
+    margin-top: -13px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.nbln .info{
+    background-color: rgb(105, 105, 105);
+    width: 340px;
+    height: 330px;
+    margin-top: -13px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.sbln .info .nme{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    
+    
+}
+.nbln .info .nme{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    
+    
+}
+.sbln .tbll{
+    position: absolute;
+}
+.nbln .tbll{
+    position: absolute;
+}
+.sbln .info .add{
+    
+    font-family: sans-serif;
+   font-style: italic;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(29, 1, 73);
+}
+.nbln .info .add{
+    
+    font-family: sans-serif;
+   font-style: italic;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(29, 1, 73);
+}
+
+.sbln .info .dt table{
+ 
+    text-align: right;
+    margin: auto;
+    color: rgb(214, 214, 214);
+}
+.nbln .info .dt table{
+ 
+    text-align: right;
+    margin: auto;
+    color: rgb(214, 214, 214);
+}
+.sbln .info .dt .val{
+    width: 70px;
+    color: aqua;
+}
+.nbln .info .dt .val{
+    width: 70px;
+    color: aqua;
+}
+.sbln .info .dt td{
+   background-color: rgb(42, 110, 165);
+}
+.nbln .info .dt td{
+   background-color: rgb(42, 110, 165);
+}
+.sbln .info .dt td:hover{
+    background-color: rgb(128, 183, 228);
+    cursor: pointer;
+    color: brown;
+ }
+.nbln .info .dt td:hover{
+    background-color: rgb(128, 183, 228);
+    cursor: pointer;
+    color: brown;
+ }
+.sbln .wid button{
+    background-color: brown;
+    width: 100px;
+    margin-left: 390px;
+    margin-top: -20px;
+}
+.nbln .wid button{
+    background-color: brown;
+    width: 100px;
+    margin-left: 390px;
+    margin-top: -20px;
+}
+.sbln .wid{
+    background-color: rgb(58, 58, 58);
+    width: 500px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-top: 1px;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.nbln .wid{
+    background-color: rgb(58, 58, 58);
+    width: 500px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-top: 1px;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.sbln .wid label{
+    color: white;
+    font-size: 15px;
+}
+.nbln .wid label{
+    color: white;
+    font-size: 15px;
+}
+.sbln .wid table{
+   
+    text-align: right;
+    margin-left: 100px;
+}
+.nbln .wid table{
+   
+    text-align: right;
+    margin-left: 100px;
+}
+.sbln .wid input{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+.nbln .wid input{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.analys h3{
+    padding:auto;
+    margin:auto;
+    width: 200px;
+    font-family: sans-serif;
+}
+.analys h4{
+    padding:auto;
+    margin:auto;
+    width: 50px;
+    font-family: sans-serif;
+    color: rgb(1, 1, 77);
+    background-color: rgba(117, 117, 117, 0.445);
+    padding-left: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.analys p{
+    margin: auto;
+}
+
+.analys .tab{
+    margin-left: 30px;
+    width: 800px;
+    
+}
+.analys .tab table{
+    text-align: right;
+}
+.analys .tab td{
+    width: 130px;
+    background-color:rgba(31, 18, 90, 0.644);
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: bisque;
+}
+.analys .tab th{
+    background-color: rgba(165, 155, 155, 0.514);
+    color:rgb(22, 40, 41);
+    font-weight: 100;
+    border-radius: 5px;
+    width: 300px;
+    padding-right: 10px;
+}
+.analys .tab td:hover{
+    background-color:rgba(92, 83, 133, 0.644);
+    cursor: pointer;
+}
+.analys .tab tr:hover{
+    background-color: azure;
+    
+}
+.wel{
+    padding-top: 25px;
+    margin-top: 50px;
+    height: 250px;
+    background-color: rgba(250, 235, 215, 0.267);
+    border-radius: 100px;
+    width: 400px;
+    margin-left: 200px;
+    color: black;
+    
+}
+.wel h1{
+    font-size: 40px;
+    margin: auto;
+    margin-top: 25px;
+}
+.wel h3{
+    font-size: 25px;
+    margin: auto;
+}
+.wel h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: brown;
+}
